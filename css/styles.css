@@ -5,7 +5,7 @@
 }
 .body {
   font-family: sans-serif;
-  #f5f5f5
+  background: #f5f5f5;
 }
 .container {
   padding: 0;
@@ -15,7 +15,28 @@
   margin-bottom: 0;
   margin-top: 0;
 }
+nav {
+  background-color: #f5f5f5;
+}
+.logo-image {
+  position: absolute;
+  left: 17%;
+}
+#doink {
+  position: absolute;
+  left: 6%;
+}
 /*HERO*/
+
+.hero-phrase h1 {
+  width: 100vw;
+  padding: 20px;
+  font-weight: 200;
+  font-size: 2em;
+  padding-bottom: 76px;
+  padding-top: 23px;
+  background: #f5f5f5;
+}
 #first {
   margin-top: 10px;
 }
@@ -34,6 +55,7 @@
   top: 47%;
   color: white;
   font-size: 15px;
+  word-wrap: break-word;
 }
 .secondary-hero {
   position: absolute;
@@ -107,6 +129,11 @@ img.bcase {
     margin-bottom: 2vh;
   }
 
+  .hero-phrase h1 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+
   .card-img {
     height: 100%;
   }
@@ -174,7 +201,7 @@ img.bcase {
 @media screen and (min-width: 1000px) {
 
   .top-row {
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-bottom: 0;
   }
 
@@ -183,6 +210,25 @@ img.bcase {
   }
   .col-lg-6 {
     max-width: 45%;
+  }
+  #doink {
+    position: absolute;
+    left: 7%;
+  }
+  .logo-image {
+    position: absolute;
+    left: 12%;
+  }
+  #search {
+    position: absolute;
+    right: 5%;
+  }
+  .hero-phrase h1 {
+    display: none;
+  }
+
+  #first {
+    margin-top: 0;
   }
 
   .card-inverse {
@@ -250,5 +296,4 @@ img.bcase {
   #last {
     margin-left: 15px;
   }
-
 }
