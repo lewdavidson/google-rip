@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*HERO*/
+.hero {
+  margin-top: 2vh;
+  background-image: url("../img/blk-fri.jpg");
+  height: 25vh;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1vh;
+}
+
+/*MIDDLE BOXES*/
+.content-box {
+  height: 8vh;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+.content-box img {
+  float: left;
+  height: 6vh;
+  width: 34%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/*LAST LG BOX*/
+.end-img {
+  height: 25vh;
+  width: 100%;
+}
