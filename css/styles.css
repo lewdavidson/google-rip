@@ -7,8 +7,9 @@
   font-family: sans-serif;
   background: #f5f5f5;
 }
-.container {
-  padding: 0;
+.custom-container {
+  margin: 0;
+  padding: 0 30px;
 }
 .row {
   margin: 10px;
@@ -37,10 +38,29 @@ nav {
   padding-top: 23px;
   background: #f5f5f5;
 }
-#first {
-  margin-top: 10px;
-}
+
 .card-img {
+  height: 100%;
+  width: 100%;
+  /*padding: 5px;*/
+}
+.card-lg {
+  height: 30vh;
+  width: 100%;
+  margin-bottom: 1vh;
+  box-shadow: 0px 3px 8px gray;
+  padding: 0;
+  margin: 0;
+}
+
+#first-img {
+  background-image: url("../img/blk-fri.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#holiday {
+  background-image: url("../img/xmas.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,15 +97,40 @@ nav {
   width: 100%;
   padding: 0;
 }
-.content-box img {
+.content-img {
   float: left;
-  height: 90%;
+  height: 100%;
   width: 35%;
   padding: 5px;
 }
+#tombrady {
+  background-image: url("../img/football.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nestle {
+  background-image: url("../img/nestle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#worth {
+  background-image: url("../img/worth.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#youtube {
+  background-image: url("../img/youtube.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-title {
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-left: 5%;
+  margin-top: 1%;
   width: 60%;
   display: inline-block;
   font-size: 15px;
@@ -154,11 +199,11 @@ img.bcase {
     padding: 0;
   }
 
-  .content-box img {
-    display: block;
+  .content-img {
+    float: left;
+    height: 54%;
     width: 100%;
-    height: 60%;
-    margin-bottom: 20px;
+    padding: 5px;
   }
 
   img.bcase {
@@ -173,7 +218,7 @@ img.bcase {
     width: 100%;
     margin: 0 auto;
     font-size: 18px;
-    padding: 5px;
+    padding-top: 5px;
   }
 
   .secondary {
@@ -206,7 +251,8 @@ img.bcase {
   }
 
   .bottom-row {
-    width: 100%
+    width: 100%;
+    height: 60%;
   }
   .col-lg-6 {
     max-width: 45%;
@@ -236,7 +282,7 @@ img.bcase {
   }
 
   .content-box {
-    height: 30vh;
+    /*height: 30vh;*/
     width: 25vw;
     margin-bottom: 2vh;
     margin-left: 15px;
@@ -253,11 +299,11 @@ img.bcase {
     padding: 0;
   }
 
-  .content-box img {
-    display: block;
-    width: 100%;
+  .content-img {
+    float: left;
     height: 40%;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
   }
 
   p.card-title {
